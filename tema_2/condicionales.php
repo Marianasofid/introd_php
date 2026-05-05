@@ -1,3 +1,4 @@
+<?php
 // 1. IF básico: Ejecuta si la condición es verdadera
 $edad = 20;
 if ($edad >= 18) {
