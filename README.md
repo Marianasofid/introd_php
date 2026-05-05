@@ -59,6 +59,46 @@ array_key_exists(): Verifica si una clave específica ha sido definida en un arr
 .
 sort() / asort() / ksort(): Diferentes funciones para ordenar por valor o por clave según el tipo de array
 
+1. Operadores Aritméticos
+Se utilizan para realizar operaciones matemáticas comunes. Según las fuentes, los principales son:
+Suma (+), Resta (-), Multiplicación (*), División (/) y Módulo (%)
+.
+Exponenciación (**): Este operador fue introducido en PHP 5.6 para realizar potencias
+.
+2. Operadores de Asignación
+Permiten otorgar un valor a una variable. El operador básico es el signo igual (=), pero existen formas abreviadas que combinan la asignación con otras operaciones:
+Asignación básica (=): Asigna el valor de la derecha a la variable de la izquierda
+.
+Asignación por referencia (&): Permite que dos variables apunten al mismo contenido
+.
+Asignaciones combinadas: Como +=, -=, *=, /=, %= y .= (para concatenación), que realizan la operación y asignan el resultado en un solo paso
+.
+3. Operadores de Comparación
+Se emplean para cotejar dos valores y devuelven un resultado booleano (verdadero o falso). Entre ellos se encuentran:
+Igualdad (==) y Diferencia (!=)
+.
+Identidad (===): Devuelve verdadero solo si las expresiones son del mismo valor y del mismo tipo
+.
+Relacionales: Menor que (<), menor o igual que (<=), mayor que (>) y mayor o igual que (>=)
+.
+4. Operadores Lógicos
+Sirven para combinar condiciones:
+AND (and, &&): Verdadero si ambas expresiones son verdaderas
+.
+OR (or, ||): Verdadero si al menos una es verdadera
+.
+XOR (xor): Verdadero si solo una de las expresiones es verdadera, pero no ambas
+.
+NOT (!): Invierte el valor lógico de la expresión
+.
+Nota técnica: PHP diferencia entre and/or y &&/|| principalmente por su precedencia en la ejecución de las operaciones
+.
+5. Operadores de Incremento y Decremento
+Son operadores unarios que aumentan o disminuyen el valor de una variable en una unidad:
+Incremento (++): Aumenta el valor
+.
+Decremento (--): Disminuye el valor
+
 
 
 ![IntroduccionPhP](img/IntroduccionPhp.png "IntroduccionPhp")
